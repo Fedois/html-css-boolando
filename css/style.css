@@ -63,16 +63,32 @@ main section{
     justify-content: space-between;
     margin-bottom: 100px;
 }
-main section div{
+.product{
         position: relative;
         width: 32%;
 }
-.dress:hover{
+.product:hover{
+    cursor: pointer;
+}
+.one:hover{
     cursor: pointer;
     content: url('../img/1b.webp');
 }
-.product:hover{
-    display: block;
+.two:hover{
+    cursor: pointer;
+    content: url('../img/2b.webp');
+}.three:hover{
+    cursor: pointer;
+    content: url('../img/3b.webp');
+}.four:hover{
+    cursor: pointer;
+    content: url('../img/4b.webp');
+}.five:hover{
+    cursor: pointer;
+    content: url('../img/5b.webp');
+}.six:hover{
+    cursor: pointer;
+    content: url('../img/6b.webp');
 }
 .dress{
     width: 100%;
@@ -104,6 +120,9 @@ main section div{
     position: absolute;
     top: 15px;
     right: 0;
+}
+.heart:hover{
+    color: red;
 }
 .product-info{
     position: absolute;
