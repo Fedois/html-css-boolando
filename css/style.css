@@ -23,7 +23,7 @@ li:hover{
 
 /* HEADER */
 header{
-    background-color: orange;
+    background-color: #ff6900;
     color: white;
     position: fixed;
     top: 0;
@@ -67,9 +67,12 @@ main section div{
         position: relative;
         width: 32%;
 }
-.product:hover{
+.dress:hover{
     cursor: pointer;
     content: url('../img/1b.webp');
+}
+.product:hover{
+    display: block;
 }
 .dress{
     width: 100%;
@@ -109,10 +112,10 @@ main section div{
 .price{
     font-size: 12px;
 }
-.one{
+.good{
     color: red;
 }
-.two{
+.bad{
     text-decoration: line-through;
 }
 
