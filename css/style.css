@@ -31,7 +31,7 @@ header{
     z-index: 30;
     width: 100%;
     padding: 10px 0px;
-    /* box-shadow: 1px 1px 1px 1px black; */
+    box-shadow: 0 1px 0 gray;
 }
 header section{
     width: 100%;
@@ -70,28 +70,17 @@ main section{
 .product:hover{
     cursor: pointer;
 }
-.one:hover{
-    cursor: pointer;
-    content: url('../img/1b.webp');
-}
-.two:hover{
-    cursor: pointer;
-    content: url('../img/2b.webp');
-}.three:hover{
-    cursor: pointer;
-    content: url('../img/3b.webp');
-}.four:hover{
-    cursor: pointer;
-    content: url('../img/4b.webp');
-}.five:hover{
-    cursor: pointer;
-    content: url('../img/5b.webp');
-}.six:hover{
-    cursor: pointer;
-    content: url('../img/6b.webp');
-}
 .dress{
     width: 100%;
+}
+.b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block; 
+}
+.b:hover{
+    display: none;
 }
 .discount{
     position: absolute;
